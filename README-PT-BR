@@ -1,0 +1,77 @@
+#lang++
+Uma coleção de ferramentas para edição de códigos com suporte para outros idiomas.
+
+<img src="https://github.com/fibanneacci/langplusplus/blob/master/assets/demov.gif" width="650">
+
+## 📝 Table of Contents
+
+ * [Propósito](https://github.com/fibanneacci/langplusplus#%EF%B8%8F-purpose)
+ * [Objetivos](https://github.com/fibanneacci/langplusplus#-goals)
+ * [Instruções](https://github.com/fibanneacci/langplusplus#%EF%B8%8F-instructions)
+    * [Instalação](https://github.com/fibanneacci/langplusplus#%EF%B8%8F-installation)
+    * [Uso](https://github.com/fibanneacci/langplusplus#-usage)
+ * [Contribuir](https://github.com/fibanneacci/langplusplus#-contributing)
+ * [Dependências/Uso da Build](https://github.com/fibanneacci/langplusplus#%EF%B8%8F-dependencies--built-using)
+ * [Licença](https://github.com/fibanneacci/langplusplus#%EF%B8%8F-license)
+ * [Autor](https://github.com/fibanneacci/langplusplus#%EF%B8%8F-author)
+
+## ✔️ Propósito
+Programação é uma habilidade extremamente valiosa ao redor do mundo. Contudo, a maioria das linguagens de programação são baseadas no inglÊs, fazendo o processo de aprendizagem ser mais dificil para os outros idiomas que intendem a usar essas linguagens de programação em seus estudos ou carreiras. Lang++ foca nesse tipo de situação usando a funcionalidade de tradução como mostra abaixo:
+
+## 🥅 Goals
+
+ * Expandir a base de dados de idiomas para a linguagem de programação;
+    * Atualmente, lang++ suporta 4 combinações lang-prog (Chinês, Espanhol e Japonês para C++ , Chinês para Java e Chinês para Swift)
+ * Incorporar o aprendizado de máquina/processamento natural da linguagem
+    * Aprimorar a precisão na trandução.
+    * Considerar o contexto para sugerir recurso de preenchimento automático
+    * Melhor conta para a evolução/mudança de idiomas na programação com o passar do tempo
+ * Recurso potencial para expandir em plug-ins, extensões, etc.
+    * Irá servir como ajuda para pessoas que buscam por qualquer ajuda na linguagem
+    * Simular a um dicionário.
+
+Veja [issues](https://github.com/fibanneacci/langplusplus/issues) para descrições e questões mais detalhadas.
+
+## 🗒️ Instruções
+
+Para ver o editor online em ação, siga esses passos:
+
+### ⬇️ Instalação
+
+1. Baixe os arquivos do ACE Editor pelo ACE Github (Veja "Dependências" abaixo)
+2. Baixe o repositório lang++
+
+### 🏃 Uso
+
+1. Abra o index.html usando o Bloco de Notas ou qualquer editor de texto/editor de códigos/IDE.
+2. Selecione o idioma preferido e a linguagem de programação.
+3. Digite no seu editor de texto no seu idioma escolhido.
+
+index.html no Google Chrome:
+
+<img src="https://github.com/fibanneacci/langplusplus/blob/master/assets/demo.png" width="650">
+
+Você pode encontrar traduções na pasta de "translations", na forma de arquivo .csv.sa
+
+## 👥 Contrubuindo
+
+lang++ proporciona várias oportunidades para contrubuir, tais como:
+
+ * Expandir a base de dados das traduções
+ * Aprimorar o código de demonstração
+ * Integração com o aprendizado de máquina
+
+ós imensamente apreciamos contribuições; sua ajuda passará desapercebida. Por favor visite [contributors](https://github.com/fibanneacci/langplusplus/contributors) para ver a lista dos contribuintes do projeto. Para aprender mais sobre como contribuir para o lang++, visite [CONTRIBUTING.md](https://github.com/fibanneacci/langplusplus/blob/master/.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT.md](https://github.com/fibanneacci/langplusplus/blob/master/CODE_OF_CONDUCT.md), e junte-se ao [Team Slack](https://join.slack.com/t/lang-co/shared_invite/enQtNTUwOTAzNzYwMzc0LWZjZDE5OTg5YzRlZTA0ZTY5YmU3MTJhNzRhOWM2NmM5N2IyNDIzOWZmYmU3NmI1NDMwMjFjNDBjMzAzMzdmNjg).
+
+Além disso, sinta-se livre em usar o lang++ (de acordo com a [license](https://github.com/fibanneacci/langplusplus/blob/master/LICENSE) nos seus proprios projetos, como plugins ou extensções para IDEs pré-existentes.
+
+## 🛠️ Dependências / Uso da Build
+* ACE Editor - online editor demo - [ACE Editor Github Repo](https://github.com/ajaxorg/ace), [Official Website](https://ace.c9.io)
+* D3 - parsing .csv data - [D3 Github Repo](https://github.com/d3/d3), [Official Website](https://d3js.org)
+
+#Este projeto está sob a licença do MIT - veja o aquivo [LICENSE](https://github.com/fibanneacci/langplusplus/blob/master/LICENSE) para detalhes.
+
+## ✍️ Author
+* **Anne Li** - *Trabalho inicial* - [fibanneacci](https://github.com/fibanneacci)
+
+Veja os [contributors](https://github.com/fibanneacci/langplusplus/contributors) deste projeto
